@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+	 <title>sing up page</title>
+	 <meta charset="UTF-8"/>
+	 <link rel="stylesheet" href="" type="text/css"/>
+	 <style>
+fieldset {background-color: white; font-family: Monospace;}
+table {background-color:;font-family: Monospace;}
+title {text-alinge:center; background-color:white; font-family:monospace;}
+body {background-color:black; font-family: Monospace;margin:0; padding:0;}
+h1 {background-color: white; font-family: Monospace;}
+h2 {background-color: white; font-family: Monospace;}
+h3 {background-color: white; font-family: Monospace;}
+h4 {background-color: white; font-family: Monospace;}
+h5 {background-color: white; font-family: Monospace;}
+h6 {background-color: white; font-family: Monospace;}
+head {background-color: white; font-family: Monospace;}
+form {background-color: white; font-family: Monospace;}
+p {background-color: white; font-family: Monospace;}
+button {text-alinge: down;}
+header{heighte: 100vh; background-image: liner geadient( regba(0,0,0,0,5), ragba(0,0,0,0,5))
+background-seize:cover;
+background-position:center;
+dispaly:flix;
+justify-content:center;
+alinge-items:center;
+font-family:Monospace
+	 </style>
+ </head>
+	 <body>
+	 <form>
+	 <action="mailto:juborajroy13@gmail.com">
+	 <fieldset>
+    <legend id = "Sing up">Sing up</legend>
+    <strong>Name</strong><br>
+    First Name:<br>
+    <input type="text" name="Name">
+    <br>
+    Last Name :<br>
+    <input type="text" name="Last Name">
+    <br>
+    <strong>Bithh day</strong><br>
+    
+    <select name="cars">
+    <option value="Month" selected>Month</option>
+    <option value="January">January 
+    </option>
+    <option value="February">February</option>
+    <option value="March">March </option>
+    <option value="April">April</option>
+    <option value= "May">May</option>
+    <option value="June ">June </option>
+		<option value="July ">July </option>
+		<option value="August">August</option>
+		<option value="September">September</option>
+		<option value="October">October</option>
+		<option value="November">November</option>
+		<option value="December">December</option>
+
+  </select>
+  <br>
+  <br>
+ <select>
+    <option value="Date" selected>Date</option>
+    <option value="1">1
+    </option>
+    <option value="2">2</option>
+    <option value="3">3 </option>
+    <option value="4">4</option>
+    <option value = "5">5</option>
+    <option value=" 6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14
+    </option>
+    <option value="15">15</option>
+    <option value= "16">16</option>
+    <option value="17">17</option>
+    <option value = "18">18</option>
+  	  <option value= "19">19</option>
+		<option value= "29">20 </option>
+	 <option value= "21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">23</option>
+		<option value="25">25</option>
+    <option value= "26">26
+    </option>
+    <option value="27">27</option>
+    <option value= "28">28</option>
+    <option value= "29">29</option>
+    <option value = "30">30</option>
+    <option value= "31">31</option>
+		</select>
+ <br>
+ year:<br>
+ <input type="number" name="year"><br>
+ 
+ <strong>Gender:</strong><br>
+ Male<br>
+ <input type="radio" name="gender" value="Male">
+ <br>
+ Female<br>
+  <input type="radio" name="gender" value="Female">
+  <br>
+  Other<br>
+   <input type="radio" name= "gender" value="Other">
+   <br>
+   <b>E-mail:</b><br>
+    <input type="text" name="E-mail"><br>
+ <b>Create password:</b><br>
+    <input type="number" name="password"><br>
+  <b>confirm Password:</b><br>
+  <input type="number" name="password">
+  <br><br>
+    <input type="submit" value="Sing up"><br><br>
+    Have an account <a href="login.html">log in</a> now
+  </fieldset>
+	</form>
+	 </body>
+ </html>
