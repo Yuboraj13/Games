@@ -1,4 +1,4 @@
-sinclude <studio.h>
+#include <studio.h>
 #include <conio.h>
 
 /* array to hold the cell status */
